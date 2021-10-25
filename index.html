@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="calculator">
+        <span class="screen">0</span>
+        <div class="row">
+            <button class="btn width-50" onclick="clearAll()">C</button>
+            <button class="btn width-25" onclick="back()">&leftarrow;</button>
+            <button class="btn operator width-25" onclick="divide()">&divide;</button>
+        </div>
+        <div class="row">
+            <button class="btn width-25" onclick="output(this)">7</button>
+            <button class="btn width-25" onclick="output(this)">8</button>
+            <button class="btn width-25" onclick="output(this)">9</button>
+            <button class="btn width-25 operator" onclick="multiply()">&times;</button>
+        </div>
+        <div class="row">
+            <button class="btn width-25" onclick="output(this)">4</button>
+            <button class="btn width-25" onclick="output(this)">5</button>
+            <button class="btn width-25" onclick="output(this)">6</button>
+            <button class="btn width-25 operator" onclick="subtract()">&minus;</button>
+        </div>
+        <div class="row">
+            <button class="btn width-25" onclick="output(this)">1</button>
+            <button class="btn width-25" onclick="output(this)">2</button>
+            <button class="btn width-25" onclick="output(this)">3</button>
+            <button class="btn width-25 operator" onclick="add()">&plus;</button>
+        </div>
+        <div class="row">
+            <button class="btn width-75" onclick="output(this)">0</button>
+            <button class="btn width-25 operator" onclick="equals()">&equals;</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
