@@ -1,2 +1,2 @@
-# simple-caculator
+# Simple calculator
 A simple arithmetic calculator
